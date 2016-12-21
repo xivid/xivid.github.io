@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="I am a senior Computer Science and Technology undergraduate student at Harbin Institute of Technology, China. My research interests are in the broad computer systems area.">
-    <meta name="keywords" content="Zhifei Yang,杨志飞,Xivid,Computer Systems,Distributed Systems,Cloud Computing,Operating Systems,Programming Languages,Harbin Institute of Technology,HIT,The University of Hong Kong,HKU,Microsoft Research Asia,MSRA">
+    <meta name="keywords" content="Zhifei Yang,杨志飞,Xivid,Technology,Engineering,Research,Science,Computer Systems,Distributed Systems,Cloud Computing,Operating Systems,Programming Languages,Harbin Institute of Technology,HIT,The University of Hong Kong,HKU,Microsoft Research Asia,MSRA">
     <meta name="author" content="Zhifei Yang">
 
     <title>Zhifei Yang</title>
@@ -19,7 +19,6 @@
     <link href="css/portfolio-item.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -27,7 +26,63 @@
     <style type="text/css">
         .chinesename {font-family: 'KaiTi', 'STKaiti', '楷体', 'Microsoft YaHei';}
 
+        .modal {
+          text-align: center;
+          padding: 0!important;
+        }
+
+        .modal:before {
+          content: '';
+          display: inline-block;
+          height: 100%;
+          vertical-align: middle;
+          margin-right: -4px;
+        }
+
+        .modal-dialog {
+          display: inline-block;
+          text-align: left;
+          vertical-align: middle;
+        }
+
+        .thumbnail{
+          position: relative;
+          overflow: hidden;
+        }
+
+        .caption{
+          position: absolute;
+          top:0;
+          left:0;
+          background:rgba(250, 184, 10, 0.5);
+          width: 100%;
+          height: 100%;
+          padding: 2%;
+          display: none;
+          text-align: center;
+          color: #B0E0E6 !important;
+          z-index: 1;
+        }
+
+        .ondark{
+          color: #fff !important;
+        }
+
+        .onlight{
+          color: #800080 !important;
+        }
+
+        .biglabel{
+          font-size:15px;
+          font-weight: 300px;
+        }  
+
     </style>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-85444455-2', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 
 <body>
@@ -61,6 +116,9 @@
                         <a href="#">Activities</a>
                     </li>
                     <li>
+                        <a href="#">Awards</a>
+                    </li>
+                    <li>
                         <a href="https://vivid.name">Blog</a>
                     </li>
                 </ul>
@@ -87,29 +145,43 @@
         <div class="row">
 
             <div class="col-md-3">
-                <img class="img-responsive" src="/photo.png" alt="">
+                <img class="img-responsive" src="img/photo.png" alt="">
             </div>
 
             <div class="col-md-9">
-                <h4><font color="red">The site is under construction! Some resources may be unavailable at present.</font></h4>
+                <h4><font color="red">This site is under construction! Some resources may be unavailable at present.</font></h4>
                 <h3>Biography</h3>
-                <p>I am a senior undergraduate student at <a target="_blank" href="https://en.wikipedia.org/wiki/Harbin_Institute_of_Technology">Harbin Institute of Technology (HIT), Harbin, China</a>. I joined the <a target="_blank" href="http://honors.hit.edu.cn">Computer Science Elite Class</a>, and <a target="_blank" href="https://github.com/footoo">IBM Technology Center (a.k.a. FoOTOo Lab)</a>, both in my freshman year. I am currently working as a research intern in the <a target="_blank" href="https://www.microsoft.com/en-us/research/group/systems-research-group-asia/">Systems Research Group</a> at <a target="_blank" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a>, mentored by <a target="_blank" href="https://www.microsoft.com/en-us/research/people/lintaoz/">Dr. Lintao Zhang</a>. I was an exchange student at the <a target="_blank" href="http://www.cs.hku.hk">Department of Computer Science, The University of Hong Kong</a> in Fall 2015. I have been writing codes for <a href="https://vivid.name/essay/studypath.html">more than ten years</a>.</p>
-                <p>My research interests are in the broad computer systems area, particularly in distributed systems, cloud computing, operating systems and programming languages. I am extremely excited about hacking into low-level system issues. Watch my demo of <a target="_blank" href="https://www.youtube.com/watch?v=gxBBnGtB3jE">RISC-CPU with Multiple Interruption on FPGA</a> if you are interested (sorry for the Chinese narration and subtitles, it won't affect understanding, though).</p>
+                <p>I am a senior undergraduate student at <a target="_blank" href="https://en.wikipedia.org/wiki/Harbin_Institute_of_Technology">Harbin Institute of Technology (HIT), Harbin, China</a>. I joined the <a target="_blank" href="http://honors.hit.edu.cn">Computer Science Elite Class</a>, and <a target="_blank" href="https://github.com/footoo">IBM Technology Center (a.k.a. FoOTOo Lab)</a>, both in my freshman year. I am currently working as a research intern in the <a target="_blank" href="https://www.microsoft.com/en-us/research/group/systems-research-group-asia/">Systems Research Group</a> at <a target="_blank" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a>, mentored by <a target="_blank" href="https://www.microsoft.com/en-us/research/people/lintaoz/">Dr. Lintao Zhang</a>. I was an exchange student at the <a target="_blank" href="http://www.cs.hku.hk">Department of Computer Science, The University of Hong Kong</a> in Fall 2015. I have been learning to code for <a href="https://vivid.name/essay/studypath.html">more than ten years</a>.</p>
+                <p>My research interests are in the broad computer systems area, particularly in distributed systems, cloud computing, operating systems and programming languages. I am extremely excited about hacking into low-level system issues and building real systems.</p>
                 <p>
                 <a target="_blank" href="files/cv.pdf">[CV]</a>
                 <a target="_blank" href="https://github.com/Xivid">[GitHub]</a>
                 <a target="_blank" href="https://www.linkedin.com/in/zhifeiyang/">[LinkedIn]</a>
-                <a target="_blank" href="./email.html">[Email]</a>
+                <a data-toggle="modal" data-target="#email">[Email]</a>
                 <a target="_blank" href="http://weibo.com/xivid">[Weibo]</a>
                 <a target="_blank" href="https://www.facebook.com/xividyzf">[Facebook]</a>
                 <a target="_blank" href="http://vivid.name">[Chinese Blog]</a>
                 </p>
             </div>
-
+            <!-- Email Modal -->
+            <div class="modal fade" id="email" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">My Email Addresses</h4>
+                        </div>
+                        <div class="modal-body">
+                        <p>Personal: <img src="img/gmail.png"></p>
+                        <p>School: <img src="img/hitmail.jpg"></p>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal -->
+            </div>
         </div>
         <!-- /.row -->
 
-        <!-- Related Projects Row -->
+        <!-- Highlights Row -->
         <div class="row">
 
             <div class="col-lg-12">
@@ -123,13 +195,81 @@
         </div>
         <!-- /.row -->
 
+        <!-- Projects With Pride Row -->
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h3 class="page-header">Projects With Pride
+                    <small><a href="projects/">[All Projects]</a></small>
+                </h3>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <div class="thumbnail">
+                    <div class="caption onlight">
+                      <h4>Distributed Gradient Boosting Decision Tree Learning Framework</h4>
+                      <p>
+                        <a href="projects/chanatrees/" class="label label-primary biglabel" rel="tooltip" title="Project Page">More</a>
+                      </p>
+                      <p>Built atop the RDMA-optimized distributed computing engine ChaNa</p>
+                    </div>
+                    <img src="img/tree.png" alt="Tree Ensembling Illustration">
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <div class="thumbnail">
+                    <div class="caption ondark">
+                      <h4>RISC-CPU with Multiple Interruption Support on Digilent Nexys 3 FPGA</h4>
+                      <p>
+                        <a target="_blank" href="https://www.youtube.com/watch?v=gxBBnGtB3jE" class="label label-info biglabel" rel="tooltip" title="(sorry for the Chinese narration and subtitles, it won't affect understanding, though)">Video</a>
+                        <a href="projects/cpufpga/" class="label label-primary biglabel" rel="tooltip" title="Project Page">More</a>
+                      </p>
+                      <p>Reads instructions from memory. Outputs to LCD screen. Written in VHDL.</p>
+                    </div>
+                    <img src="img/cpu_fpga.jpg" alt="RISC-CPU with Multiple Interruption on Digilent Nexys 3 FPGA">
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <div class="thumbnail">
+                    <div class="caption onlight">
+                      <h4>A C-like Language Compiler</h4>
+                      <p>
+                        <a href="projects/c6/" class="label label-primary biglabel" rel="tooltip" title="Project Page">More</a>
+                      </p>
+                      <p>Supporting all basic elements of C. Implemented a demo game with this language and OpenGL. Done with pleasure with <a href="https://github.com/septjew">Zoey</a>.</p>
+                    </div>
+                    <img src="img/compiler.png" alt="compiler">
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <div class="thumbnail">
+                    <div class="caption ondark">
+                      <h4>RhythmHit</h4>
+                      <p>
+                        <a target="_blank" href="" class="label label-info biglabel" rel="tooltip" title="in preparation">Video</a>
+                        <a href="projects/cpufpga/" class="label label-primary biglabel" rel="tooltip" title="Project Page">More</a>
+                      </p>
+                      <p>Drive the rocket to catch the beats on time. Best Project in the course XNA Game Designing and Development. Done in honor with <a class="ondark" href="https://github.com/39m">Nil</a>.</p>
+                    </div>
+                    <img src="img/rhythmhit.jpg" alt="RhythmHit">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+
+
         <hr>
 
         <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Zhifei Yang 2016</p>
+                    <p>Copyright &copy; Zhifei Yang 2016.</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -143,6 +283,8 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/portfolio-item.js"></script>
 
 </body>
 
