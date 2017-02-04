@@ -25,3 +25,7 @@ footer {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
 }
+
+.detail {
+  margin-top: 10px;
+}
