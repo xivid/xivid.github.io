@@ -63,16 +63,16 @@
                         <a href="/teaching.html">Teaching</a>
                     </li>
                     <li>
-                        <a href="/services.html">Services</a>
+                        <a href="#">Services</a>
                     </li>
                     <li>
-                        <a href="/awards.html">Awards</a>
+                        <a href="#">Awards</a>
                     </li>
                     <li>
-                        <a href="#">Hobbies</a>
+                        <a href="#">Fun</a>
                     </li>
                     <li>
-                        <a href="https://vivid.name" target="_blank">Blog</a>
+                        <a href="#">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -95,7 +95,7 @@
         
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="area">Distributed Systems</h2>
+                <h2 class="area">Distributed Systems and Networks</h2>
             </div>
         </div>
 
@@ -111,11 +111,39 @@
                 <h3>ChaNaTrees</h3>
                 <h4>In Progress at Systems Research Group, Microsoft Research Asia</h4>
                 <p>A distributed machine learning framework based on <a href="https://en.wikipedia.org/wiki/Gradient_boosting#Gradient_tree_boosting" target="_blank">Gradient Boosting Decision Tree</a> (GBDT, GBRT, GBM or MART). It is integrated as a part of <i>ChaNa</i>, the RDMA-optimized distributed computing engine of our group. With both system-level and algorithm-level optimizations, memory usage and communication cost are reduced, and the performance is better than popular similar tools (e.g. XGBoost).</p>
-                <p>I have been individually building it on <i>ChaNa</i>.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 detail">
+                <p>I have been individually building the framework on <i>ChaNa</i>. However, the techniques we proposed are general, and have been implemented in Microsoft's other opensource GBDT frameworks: <a href="https://github.com/Microsoft/LightGBM" target="_blank">LightGBM</a> <b>(received 2000+ stars on GitHub)</b>, <a href="https://github.com/cloudml/SparkTree" target="_blank">SparkTree</a> (Spark version of ChaNaTrees). Our framework on ChaNa is seamlessly integrated into the AllReduce-based application module of ChaNa, enjoying all the novel system insights and RDMA networking optimizations of ChaNa, while introducing almost no system overhead thanks to ChaNa's very low-level abstractions. A paper on this work is also to be submitted.</p>
             </div>
         </div>
         <!-- /.row -->
         
+        <span class="anchor" id="Huffman"></span>
+        <hr>
+        <div class="row">
+            <div class="col-md-3">
+                <a href="#Huffman">
+                    <img class="img-responsive" src="img/huffman.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-9">
+                <h3>Compressed Online Media Streaming with Dynamic Huffman Tree</h3>
+                <h4>Software Design and Practice I, Harbin Institute of Technology</h4>
+                <p>The Dynamic (or Adaptive) Huffman Encoding algorithm is an online algorithm that can compress and decompress information without knowing the whole data in prior. This is exactly the case in networked media streaming: media file is transferred while played. We design and implement a local environment which simulates real networking environments and do compressed transmission with dynamic huffman encoding. It also deals with out-of-order packets with a priority-queue-controlled stream buffer.</p>
+                <p>
+                <a class="btn btn-info" href="https://github.com/Xivid/Advanced-Data-Structures/tree/master/Final/HfmDynDT/HfmDynDT">View Codes <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 detail">
+                <p>I got the only full marks in my class on this course, not only for this project, but also for some other achievements through this course. <!-- Those include: --></p>
+            </div>
+        </div>
+        <!-- /.row -->
+
         <hr>
         <div class="row">
             <div class="col-lg-12">
@@ -142,19 +170,18 @@
             </div>
         </div>
         <div class="row">
-        <div class="col-md-12 detail">
-            <p>Features include:
-            <ul>
-            <li>integer,char and static string types</li>
-            <li>local and global variables</li>
-            <li>multi-dimensional arrays</li>
-            <li>real strings (char arrays) and array of static strings</li>
-            <li>function calls (passing arguments by value or by reference)</li>
-            <li>input/output with format string or variable argument list (basic types and arrays)</li></ul>
-            With an assembly simulator, I also developed two executable applications for this simple language. One is a plotting demo piping into a Python script calling <code>pyplot</code>. Another is a small 3-puzzle game connected with an <code>OpenGL</code> GUI written in C. (See the image at left. That's it! 😁)
-            </p>
-            
-        </div>
+            <div class="col-md-12 detail">
+                <p>Features include:
+                <ul>
+                <li>integer,char and static string types</li>
+                <li>local and global variables</li>
+                <li>multi-dimensional arrays</li>
+                <li>real strings (char arrays) and array of static strings</li>
+                <li>function calls (passing arguments by value or by reference)</li>
+                <li>input/output with format string or variable argument list (basic types and arrays)</li></ul>
+                With an assembly simulator, I also developed two executable applications for this simple language. One is a plotting demo piping into a Python script calling <code>pyplot</code>. Another is a small 3-puzzle game connected with an <code>OpenGL</code> GUI written in C. (See the image at left. That's it! 😁)
+                </p>
+            </div>
         </div>
         <!-- /.row -->
         
@@ -175,41 +202,23 @@
         </div>
         <div class="row">
         <div class="col-md-12 detail">
-        <p>SINH is a simple functional script language introduced in the course lectures. It supports first-class functions, recursion and several types of error checking. It also has another version supporting imperative features like mutable variables. </p>
-        <p>Features:
-        <ul>
-        <li>First-Class Functions</li>
-        <li>Recursion</li>
-        <li>Error Checking (e.g. static type checking, division-by-0 checking)</li>
-        </ul>
-        </p>
-        <p>
-            For the imperative version, we implement mutable-state variables with simple memory management using Monads.
-        </p>
+            <p>SINH is a simple functional script language introduced in the course lectures. It supports first-class functions, recursion and several types of error checking. It also has another version supporting imperative features like mutable variables. </p>
+            <p>Features:
+            <ul>
+            <li>First-Class Functions</li>
+            <li>Recursion</li>
+            <li>Error Checking (e.g. static type checking, division-by-0 checking)</li>
+            </ul>
+            </p>
+            <p>For the imperative version, we implement mutable-state variables with simple memory management using Monads.</p>
         </div>
-        </div>
-        <!-- /.row -->
-
-        <span class="anchor" id="DSLib"></span>
-        <hr>
-        <div class="row">
-            <div class="col-md-3">
-                <a href="#DSLib">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-9">
-                <h3>Advanced Data Structure Library</h3>
-                <h4>Software Design and Practice I, Harbin Institute of Technology</h4>
-                <p>This project won the only full marks in the class. To be elaborated ...</p>
-            </div>
         </div>
         <!-- /.row -->
 
         <hr>
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="area">Computer Architecture</h2>
+                <h2 class="area">Computer Architecture and Embedded Systems</h2>
             </div>
         </div>
 
@@ -230,33 +239,13 @@
                 </p>
             </div>
         </div>
-        <!-- /.row -->
-
-        <span class="anchor" id="Interrupt"></span>
-        <hr>
         <div class="row">
-            <div class="col-md-3">
-                <a href="#Interrupt">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-9">
-                <h3>Multiple Interrupt Demonstration</h3>
-                <p>A toy on Nexys(TM) 3 Board demonstrating how multiple interrupt works.</p><p>To be elaborated ...</p>
-                <p><a class="btn btn-info" href="https://github.com/Xivid/Multiple-Interrupt" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
-                <a class="btn btn-success" href="https://github.com/Xivid/Multiple-Interrupt/blob/master/InterruptDemo.mp4" target="_blank">Demo Video <span class="glyphicon glyphicon-chevron-right"></span></a>
-                </p>
-            </div>
+        <div class="col-md-12 detail">
+            <p>We also designed a toy on Nexys(TM) 3 Board to demonstrate how multiple interrupt works. Its code repository is <a href="https://github.com/Xivid/Multiple-Interrupt" target="_blank">here</a>, and video is <a href="https://github.com/Xivid/Multiple-Interrupt/blob/master/InterruptDemo.mp4" target="_blank">here</a>.</p>
+        </div>
         </div>
         <!-- /.row -->
         
-        <hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="area">Embedded Systems</h2>
-            </div>
-        </div>
-
         <span class="anchor" id="M100"></span>
         <hr>
         <div class="row">
@@ -294,7 +283,7 @@
         <hr>
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="area">Internet and Web Services</h2>
+                <h2 class="area">Data Mining</h2>
             </div>
         </div>
 
@@ -303,14 +292,14 @@
         <div class="row">
             <div class="col-md-3">
                 <a href="#BitcoinSpider">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="img/bitcointalk.png" alt="">
                 </a>
             </div>
             <div class="col-md-9">
                 <h3>Bitcoin Forum Spider and Data Analysis</h3>
                 <h4>IBM Technology Center (FoOTOo Lab), Harbin Institute of Technology</h4>
                 <p>BitcointalkSpider is a web crawler targeting at crawling down all the posts and user data of Bitcoin Forum. It is a automatically scheduled incremental spider based on the Python <code>Scrapy</code> framework. We came up some interesting statistics from this data with <code>PyLab</code>, and found the positive correlation between user activeness on Bitcoin Forum and Bitcoin price.</p>
-                <p>Developed in honor with my friend <a href="https://github.com/viciousstar" target="_blank">Hailong Tang</a>.</p>
+                <p>Completed with my friend <a href="https://github.com/viciousstar" target="_blank">Hailong Tang</a>.</p>
                 <p><a class="btn btn-info" href="https://github.com/Xivid/BitcointalkSpider" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a></p>
             </div>
         </div>
@@ -338,47 +327,6 @@
             </div>
         </div>
         <!-- /.row -->
-
-        <span class="anchor" id="weather"></span>
-        <hr>
-        <div class="row">
-            <div class="col-md-3">
-                <a href="#weather">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-9">
-                <h3>Multi-Service-Integrated Weather Report Generator</h3>
-                <h4>Advanced Topics on Service Computing, <a href="https://cs.adelaide.edu.au/~qsheng/" target="_blank">Prof. Michael Sheng</a>, The University of Adelaide</h4>
-                <p>Given when Prof. Sheng was visiting HIT. To be elaborated ...</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="area">Operating Systems</h2>
-            </div>
-        </div>
-
-        <span class="anchor" id="Launcher"></span>
-        <hr>
-        <div class="row">
-            <div class="col-md-3">
-                <a href="#Launcher">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-9">
-                <h3>Linux Quick Launcher</h3>
-                <h4>IBM Technology Center (FoOTOo Lab), Harbin Institute of Technology</h4>
-                <p>Linux quick launcher is a Spotlight-like application searcher and launcher for Linux desktop. All executables (CLI commands, desktop applications) can be indexed and launched by Linux Quick Launcher in different manners. It supports wildcard searching and special commands. We specially designed the result ranking algorithm to present the most likely item at the top. We implemented both commandline and PyQt GUI version.</p>
-                <p>Developed in delight with my friend <a href="https://github.com/39m" target="_blank">Jiaqi (Nil) Wang</a>.</p>
-                <p><a class="btn btn-info" href="https://github.com/Xivid/Linux-Quick-Launcher" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a></p>
-            </div>
-        </div>
-        <!-- /.row -->
         
         <hr>
         <div class="row">
@@ -387,17 +335,39 @@
             </div>
         </div>
 
+       <span class="anchor" id="Launcher"></span>
+        <hr>
+        <div class="row">
+            <div class="col-md-3">
+                <a href="#Launcher">
+                    <img class="img-responsive" src="img/launcher.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-9">
+                <h3>Linux Quick Launcher</h3>
+                <h4>IBM Technology Center (FoOTOo Lab), Harbin Institute of Technology</h4>
+                <p>Developed in delight with my friend <a href="https://github.com/39m" target="_blank">Jiaqi (Nil) Wang</a> in the 2014 FoOTOo Lab Hackathon. We stayed up in the lab for 2 days and finished it successfully. What a suffering joy!</p>
+                <p><a class="btn btn-info" href="https://github.com/Xivid/Linux-Quick-Launcher" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 detail">
+                <p>Linux quick launcher is a Spotlight-like application searcher and launcher for Linux desktop. All executables (CLI commands, desktop applications) can be indexed and launched by Linux Quick Launcher in different manners. It supports wildcard searching and special commands. We specially designed the result ranking algorithm to present the most likely item at the top. We implemented both commandline, Tkinter GUI and PyQt GUI version.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
         <span class="anchor" id="ScreenWordcard"></span>
         <hr>
         <div class="row">
             <div class="col-md-3">
                 <a href="#ScreenWordcard">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="img/vocabulary.png" alt="">
                 </a>
             </div>
             <div class="col-md-9">
                 <h3>Screen Wordcard</h3>
-                <p>Developed in 1 hour when I was having a tough time remembering the vocabulary of GRE.</p>
+                <p>Developed in 1 hour with C# when I was having a tough time remembering the vocabulary of GRE. With this tiny tool, I was able to remember new words at any time as long as I was working on the computer.</p><p>This is not difficult at all, it is just a demonstration that I love to solve real life problems by creating tools by myself. And thanks to Google and StackOverflow, I could make such a tool without any prior learning on .Net Framework. </p>
                 <p><a class="btn btn-info" href="https://github.com/Xivid/ScreenVocabulary" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a></p>
             </div>
         </div>
@@ -408,7 +378,7 @@
         <div class="row">
             <div class="col-md-3">
                 <a href="#XiaoiceVR">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="img/xiaoiceVR.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-9">
@@ -416,7 +386,6 @@
                 <h4>Microsoft //oneweek Hackathon 2016</h4>
                 <p><ul><li>Presented an enhanced Xiaoice virtual bot with real-time voice communication</li>
                 <li>Employed Microsoft Cognitive Service, Weibo message crawler and Unity3D</li></ul></p>
-                <p>To be elaborated ...</p>
             </div>
         </div>
         <!-- /.row -->
@@ -432,11 +401,39 @@
             <div class="col-md-9">
                 <h3>RhythmHit Music Game</h3>
                 <h4>Best Project of XNA Based Game Design & Development, Harbin Institute of Technology </h4>
-                <p>RhythmHit is a game where you drive your vehicle to hit the hazards with the rhythm beats. All hazards are designed to appear in such a time that makes the collision happens at the very time a beat in the music happens. So it will trigger the sound effect of a percussion instrument (the type of instrument varies with songs) at the same time. The game was developed in delight with my friend <a href="https://github.com/39m" target="_blank">Jiaqi (Nil) Wang</a>.</p>
                 <p>Drive the rocket, and catch the beat!</p>
                 <p><a class="btn btn-info" href="https://github.com/Xivid/RhythmHit" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a></p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12 detail">
+                <p>RhythmHit is a game where you drive your vehicle to hit the hazards with the rhythm beats. All hazards are designed to appear in such a time that makes the collision happens at the very time a beat in the music happens. So it will trigger the sound effect of a percussion instrument (the type of instrument varies with songs) at the same time. The game was developed in delight with my friend <a href="https://github.com/39m" target="_blank">Jiaqi (Nil) Wang</a>.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <span class="anchor" id="weather"></span>
+        <hr>
+        <div class="row">
+            <div class="col-md-3">
+                <a href="#weather">
+                    <img class="img-responsive" src="img/weather.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-9">
+                <h3>City Life Guide Generator with Service-composition</h3>
+                <h4>Special Topics on Services Computing, <a href="https://cs.adelaide.edu.au/~qsheng/" target="_blank">Prof. Michael Sheng</a>, The University of Adelaide</h4>
+                <p>Done in an invited mini-course given at HIT to Computer Science Honors Class by Prof. Michael Sheng from University of Adelaide and Prof. Zhongjie Wang from HIT.</p>
+                <p><a class="btn btn-info" href="https://github.com/Xivid/Special-Topics-on-Services-Computing" target="_blank">View Repository <span class="glyphicon glyphicon-chevron-right"></span></a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 detail">
+                <p>The project is about composing multiple web services into one (like <code>pipes</code> in Linux) to achieve more complex tasks. More specifically, I completed a city life guide generator based on only the user's mobile phone number. The web services behind it are the <code>weather querying service</code> and the <code>mobile phone number to location mapping service</code>.</p>
+                <p>I also included my lecture notes, labs, presentation slides and end-of-course photos in the GitHub repo.</p>
+            </div>
+        </div>
+        
         <!-- /.row -->
 
         <span class="anchor" id="SSECTA"></span>
@@ -444,14 +441,19 @@
         <div class="row">
             <div class="col-md-3">
                 <a href="#SSECTA">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="img/ssecta.png" alt="">
                 </a>
             </div>
             <div class="col-md-9">
                 <h3>HIT C Programming Training Assistant</h3>
                 <h4>Adopted by C Programming Language Course Teaching Group, Harbin Institute of Technology </h4>
-                <p>To be elaborated ...</p><p>Designed and developed in excitement with my friend <a href="http://yumendy.com" target="_blank">Yi Duan</a>.</p>
-                <p><a class="btn btn-info" href="https://github.com/Xivid/RhythmHit" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a></p>
+                <p>Designed and developed in excitement with my friend <a href="http://yumendy.com" target="_blank">Yi Duan</a> in 2014 Spring.</p>
+                <p><a class="btn btn-info" href="https://github.com/Xivid/Programming-Training-Helper" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 detail">
+                <p>A Django website for sharing solutions and comments for programming problems. We named it SSECTA (SSE C programming language Training Assistant). Our C programming language teacher liked it and adopted it as a training assistant as well as an error reporting platform because there were so many mistakes in the problems in our online training system. The project was hosted on SinaApp: http://ssecta.sinaapp.com (suspended due to arrearage).</p>
             </div>
         </div>
         <!-- /.row -->
