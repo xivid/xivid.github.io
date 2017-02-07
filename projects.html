@@ -91,6 +91,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Selected Projects
+                    <small>noteworthy projects I created in research, courses or just for fun</small>
                 </h1>
             </div>
         </div>
@@ -118,7 +119,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 detail">
-                <p>I have been individually building the framework on <i>ChaNa</i>. However, the techniques we proposed are general, and have been implemented in Microsoft's other opensource GBDT frameworks: <a href="https://github.com/Microsoft/LightGBM" target="_blank">LightGBM</a> <b>(received 2000+ stars on GitHub)</b>, <a href="https://github.com/cloudml/SparkTree" target="_blank">SparkTree</a> (Spark version of ChaNaTrees). Our framework on ChaNa is seamlessly integrated into the AllReduce-based application module of ChaNa, enjoying all the novel system insights and RDMA networking optimizations of ChaNa, while introducing almost no system overhead thanks to ChaNa's very low-level abstractions. A paper on this work is also to be submitted.</p>
+                <p>I have been individually building the framework on <i>ChaNa</i>. However, the techniques we proposed are general, and have been implemented in Microsoft's other opensource GBDT frameworks: <a href="https://github.com/Microsoft/LightGBM" target="_blank">LightGBM</a> <b>(received 2000+ stars on GitHub)</b>, <a href="https://github.com/cloudml/SparkTree" target="_blank">SparkTree</a> (Spark version of ChaNaTrees). Our framework on ChaNa is seamlessly integrated into the AllReduce-based application module of ChaNa, enjoying all the novel system insights and RDMA networking optimizations of ChaNa, while introducing almost no system overhead thanks to ChaNa's very low-level abstractions. A paper on SparkTree has been submitted to <a href="http://sigir.org/sigir2017/" target="_blank">SIGIR 2017</a>.</p>
             </div>
         </div>
         <!-- /.row -->
@@ -134,15 +135,24 @@
             <div class="col-md-9">
                 <h3>Compressed Online Media Streaming with Dynamic Huffman Tree</h3>
                 <h4>Software Design and Practice I, Harbin Institute of Technology</h4>
-                <p>The Dynamic (or Adaptive) Huffman Encoding algorithm is an online algorithm that can compress and decompress information without knowing the whole data in prior. This is exactly the case in networked media streaming: media file is transferred while played. We design and implement a local environment which simulates real networking environments and do compressed transmission with dynamic huffman encoding. It also deals with out-of-order packets with a priority-queue-controlled stream buffer.</p>
+                <p>The Dynamic (or Adaptive) Huffman Encoding algorithm is an online algorithm that can compress and decompress streamed data without knowing the whole data in prior. This is exactly the case in networked media streaming: media file is transferred while played. We design and implement a local environment which simulates real networking environments and do compressed transmission with dynamic huffman encoding. It also deals with out-of-order packets with a priority-queue-controlled stream buffer.</p>
                 <p>
-                <a class="btn btn-info" href="https://github.com/Xivid/Advanced-Data-Structures/tree/master/Final/HfmDynDT/HfmDynDT">View Codes <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-info" href="https://github.com/Xivid/Advanced-Data-Structures/tree/master/Final/HfmDynDT/HfmDynDT" target="_blank">View Codes <span class="glyphicon glyphicon-chevron-right"></span></a>
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12 detail">
-                <p>I got the only full marks in my class on this course, not only for this project, but also for some other achievements through this course. <!-- Those include: --></p>
+                <p>I got the only full marks in my class on this course, not only for this project, but also for some other achievements through this course:
+                <ul>
+                    <li>Proposed <code>a novel implementation of AVL tree</code> that can non-recursively insert and delete elements, update balance factors dynamically and output the tree in ASCII art</li>
+                    <li>Created an <code>advanced data structure library</code> in succinct C++ codes including: skip list, sparse matrix, dynamic huffman tree, threaded tree, forest, AVL tree, red black tree, hashtable and dictionary</li>
+                    <li>Experimented, plotted and analyzed <code>the performance curve of different sorting algorithms</code> (six optimizations of quicksort, three linear-time sort algorithms) in various data-distribution senarios</li>
+                    <li>Correctly implemented a stack-based float-number-arithmetic very-complex-expression evaluator, which could evaluate expresssions like <code>.57025*(3/+-(.6+.8)-4.2*-(3—(.5/.5))+-8.0/(6+8)—+6)=?</code></li>
+                    <li>Built GUI programs to demonstrate the constructing process of <code>{dynamic huffman trees, threaded trees, forests, conversion between forest and binary tree}</code></li>
+                </ul>
+                All these with a final report can also be found in the above <a href="https://github.com/Xivid/Advanced-Data-Structures" target="_blank">repository</a>.
+                </p>
             </div>
         </div>
         <!-- /.row -->
@@ -234,9 +244,10 @@
                 </a>
             </div>
             <div class="col-md-9">
-                <h3>Single-cycle Four-beat CPU with Multiple Interrupt on FPGA</h3>
+                <h3>CPU on FPGA</h3>
                 <h4>Summer Project, Harbin Institute of Technology</h4>
-                <p>Written in VHDL on Xilinx ISE. Adapted to the Digilent Nexys 3 FPGA board. Flash memory layout: reading instructions in code segment, and manipulating data in data segment. Includes an Intel-8259-like Multiple Interrupt Controller as a peripheral. PmodLCD displaying interrupt level, register contents and each instruction being executed. Controlling execution beats with a debounced button.</p>
+                <p>It is a single-cycle four-beat CPU with multiple interrupt support on FPGA board. I wrote it in the VHDL language, and adapted it to the Digilent Nexys 3 FPGA board. I divided the memory address space into two parts (code segment and data segment). Valid binary programs can be downloaded into the memory and ran with full access to the whole memory.</p>
+                <p>We also designed a toy on this board to demonstrate how multiple interrupt works. Its code repository is <a href="https://github.com/Xivid/Multiple-Interrupt" target="_blank">here</a>, and video is <a href="https://github.com/Xivid/Multiple-Interrupt/blob/master/InterruptDemo.mp4" target="_blank">here</a>.</p>
                 <p><a class="btn btn-info" href="https://github.com/Xivid/RISC-CPU" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
                 <a class="btn btn-success" href="https://www.youtube.com/watch?v=gxBBnGtB3jE" target="_blank">Demo Video <span class="glyphicon glyphicon-chevron-right"></span></a>
                 </p>
@@ -244,7 +255,8 @@
         </div>
         <div class="row">
         <div class="col-md-12 detail">
-            <p>We also designed a toy on Nexys(TM) 3 Board to demonstrate how multiple interrupt works. Its code repository is <a href="https://github.com/Xivid/Multiple-Interrupt" target="_blank">here</a>, and video is <a href="https://github.com/Xivid/Multiple-Interrupt/blob/master/InterruptDemo.mp4" target="_blank">here</a>.</p>
+            <p>This "mini CPU" includes an Intel-8259-like Multiple Interrupt Controller as a peripheral. With the INT instruction, the process can run into multiple-level interrupts. Interrupt service routines are preset in the beginning bytes of the memory.</p>
+            <p>To make the execution process easy to observe, I added a PmodLCD display, which shows each instruction being executed, realtime register contents and interrupt levels. The CPU's execution beats can be controlled with a button or the system clock on board.</p>
         </div>
         </div>
         <!-- /.row -->
@@ -258,27 +270,10 @@
                 </a>
             </div>
             <div class="col-md-9">
-                <h3>Human Body Tracking on DJI M100 UAV</h3>
+                <h3>Human Body Tracking on DJI M100 UAV (Ongoing)</h3>
                 <h4>Starred Project of Embedded System Principle and Practice, Harbin Institute of Technology</h4>
                 <p>We install Raspberry Pi as the "brain" of the UAV to control its flight. With the help of the realtime video stream tracked from 8 cameras deployed at 4 sides, we make the drone follow a designated human body. I am responsible for sending accurate motion controlling instructions with Raspberry Pi over UART.</p>
-                <p>This course project later became an National Innovation Project in HIT. It is still in progress with some new members.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <span class="anchor" id="StudyRoom"></span>
-        <hr>
-        <div class="row">
-            <div class="col-md-3">
-                <a href="#StudyRoom">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="DJI M100 UAV">
-                </a>
-            </div>
-            <div class="col-md-9">
-                <h3>Study Room Usage Tracker</h3>
-                <h4>Third Prize, School of Astronautics Electronic Innovation Competition, Harbin Institute of Technology </h4>
-                <p>I am responsible for designing the moving direction detecting algorithm and distributed usage counting algorithm.</p>
-                <p>To be elaborated ...</p>
+                <p>This course project later became an National Innovation Project in HIT. It is still in progress as some new members have joined.</p>
             </div>
         </div>
         <!-- /.row -->
@@ -313,11 +308,11 @@
         <div class="row">
             <div class="col-md-3">
                 <a href="#kbps">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="img/kbps.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-9">
-                <h3>Medical Knowledge Base and Prescription System</h3>
+                <h3>Medical Knowledge Base and Prescription System (Ongoing)</h3>
                 <h4>Sponsored by HIT Innovation Training Project and Tencent Scholarship</h4>
                 <p>
                 <ul>
@@ -326,7 +321,7 @@
                 <li>Developing a knowledge-aided prescription making system as an application</li>
                 </ul>
                 </p>
-                <p>To be elaborated ...</p>
+                <p><a href="https://github.com/39M/KBPS" target="_blank">Code for Prescription System Front End</a></p>
             </div>
         </div>
         <!-- /.row -->
@@ -334,7 +329,7 @@
         <hr>
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="area">Fun Stuff</h2>
+                <h2 class="area">Potpourri</h2>
             </div>
         </div>
 
@@ -466,14 +461,19 @@
         <div class="row">
             <div class="col-md-3">
                 <a href="#EateryMaster">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="img/eatery.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-9">
                 <h3>EateryMaster</h3>
                 <h4>Ranked 5/80, Second Prize, Freshman Innovation Project, Harbin Institute of Technology </h4>
-                <p>To be elaborated...</p><p>Designed and developed in delight with my first campus friend <a href="http://yumendy.com" target="_blank">Yi Duan</a>.</p>
                 <p><a class="btn btn-info" href="https://github.com/Xivid/EateryMaster" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 detail">
+                <p>Eatery Master is a data-driven interactive web platform for university canteens. It provides a platform for students to contribute canteen experiences and get official response from canteen operators. It is also highlighted by its recommendation system that leverages massive dishes and user feedback data to give diet suggestions. </p>
+                <p>The project is designed and developed in delight with my first campus friend <a href="http://yumendy.com" target="_blank">Yi Duan</a>. It won a Second Prize of HIT Freshman Innovation Project (the best one in second prize awardees).</p>
             </div>
         </div>
         <!-- /.row -->
