@@ -116,16 +116,13 @@
         <div class="row">
 
             <div class="col-md-3">
-                <img class="img-responsive" src="img/photo.png" alt="">
+                <img class="img-responsive" src="img/photo.jpg" alt="">
             </div>
 
             <div class="col-md-9">
                 <h3>Biography</h3>
                 <p>I am a senior undergraduate student at <a target="_blank" href="https://en.wikipedia.org/wiki/Harbin_Institute_of_Technology">Harbin Institute of Technology (HIT), Harbin, China</a>. I joined the <a target="_blank" href="http://honors.hit.edu.cn">Computer Science Honors Class</a>, and <a target="_blank" href="https://github.com/footoo">IBM Technology Center (a.k.a. FoOTOo Lab)</a>, both in my freshman year. I am currently working as a research intern in the <a target="_blank" href="https://www.microsoft.com/en-us/research/group/systems-research-group-asia/">Systems Research Group</a> at <a target="_blank" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia (MSRA)</a>, under the supervision of <a target="_blank" href="https://www.microsoft.com/en-us/research/people/lintaoz/">Dr. Lintao Zhang</a> and <a target="_blank" href="https://www.microsoft.com/en-us/research/people/huzho/">Dr. Hucheng Zhou</a>. I was an exchange student at the <a target="_blank" href="http://www.cs.hku.hk">Department of Computer Science, The University of Hong Kong (HKU)</a> in Fall 2015.</p>
                 <p>My research interests are in the broad computer systems area, particularly in distributed systems, cloud computing, operating systems and programming languages. I am extremely excited about hacking into low-level system issues as well as building real systems.</p>
-                <h3>Academics</h3>
-                <p>GPA: 91.11/100 (major) and 89.01/100 (overall) in HIT, 4.0/4.3 in HKU<br>Ranking: 7/29 in Honors Class, 11/225 in Computer Science major<br>TOEFL: Reading 30 + Listening 28 + Speaking 22 + Writing 29 = 109/120<br>GRE: Quantitative 170 + Verbal 150 = 320/340 (Analytical Writing: 4.0)
-                </p>
 
                 <a target="_blank" href="files/cv.pdf">[CV]</a>
                 <a target="_blank" href="https://github.com/Xivid">[GitHub]</a>
@@ -160,11 +157,14 @@
 
             <div class="col-lg-12">
                 <h3 class="page-header">News</h3>
-                <ul>
-                <li>23/03/2016 We have achieved better LambdaMART training speed than LightGBM. We are preparing to open-source our GBDT system <a href="projects.html#ChaNaTrees">ChaNaTrees</a>. </li>
-                <li>01/18/2016 I will be working with the MS product group to transfer my work on <a href="projects.html#ChaNaTrees">ChaNaTrees</a> to the search ranking task of <a href="https://www.bing.com" target="_blank">Bing</a>!</li>
-                <li>12/13/2016 I did some investigation on building wireless VR systems. Please find my research proposal <a href="files/WirelessVR_RP_short.pdf">here (1 page short version)</a> or <a target="_blank" href="files/WirelessVR_RP.pdf">here (long version)</a>.
-                </ul>
+                <span class="badge">04/16/2017</span> I have decided to go to ETH Zürich for my graduate study. Looking forward to the journey!
+                <br>
+                <span class="badge">03/23/2017</span> We have achieved better LambdaMART training speed than LightGBM. We are preparing to open-source our GBDT system <a href="projects.html#ChaNaGBM">ChaNaGBM</a>.
+                <br>
+                <span class="badge">01/18/2017</span> We are working with the MS product group to transfer some optimization techniques on <a href="projects.html#ChaNaGBM">ChaNaGBM</a> to the search ranking tool of <a href="https://www.bing.com" target="_blank">Bing</a>!
+                <br>
+                <span class="badge">12/13/2016</span> I did some investigation on building wireless VR systems. Please find my research proposal <a href="files/WirelessVR_RP_short.pdf">here (1 page short version)</a> or <a target="_blank" href="files/WirelessVR_RP.pdf">here (long version)</a>.
+                
             </div>
 
         </div>
@@ -175,9 +175,9 @@
 
             <div class="col-lg-12">
                 <h3 class="page-header">Research</h3>
-                <h4><a href="projects.html#ChaNaTrees">ChaNaTrees: Distributed Gradient Boosting Decision Tree Framework on ChaNa (Ongoing)</a></h4>
-                <p>A distributed machine learning framework based on Gradient Boosting Decision Tree (GBDT, GBRT, GBM or MART). It is integrated as a part of ChaNa, the RDMA-optimized distributed computing engine of our group. With both system-level and algorithm-level optimizations, memory usage and communication cost are reduced, and the performance is better than state-of-the-art tools (e.g. XGBoost). <b><em>Part of work submitted to <a href="http://sigir.org/sigir2017/" target="_blank">SIGIR 2017</a>.</em></b></p>
-                <p><a href="projects.html#ChaNaTrees">Read More</a> | <a href="https://github.com/cloudml/SparkTree" target="_blank">SparkTree (Spark Version)</a> | <a href="https://github.com/dmlc/xgboost" target="_blank">XGBoost</a></p>
+                <h4><a href="projects.html#ChaNaGBM">ChaNaGBM: Distributed Gradient Boosting Decision Tree Framework on ChaNa (Ongoing)</a></h4>
+                <p>A distributed machine learning framework based on Gradient Boosting Decision Tree (GBDT, GBRT, GBM or MART). It is integrated as a part of ChaNa, the RDMA-optimized distributed computing engine developed by our group. With both system-level and algorithm-level optimizations, memory usage and communication cost are reduced, and the performance is better than state-of-the-art tools (e.g. LightGBM and XGBoost). A Spark version of the framework has been opensourced on GitHub as SparkTree.</p>
+                <p><a href="projects.html#ChaNaGBM">Read More</a> | <a href="https://github.com/cloudml/SparkTree" target="_blank">SparkTree (Spark Version)</a>
             </div>
 
         </div>
@@ -197,7 +197,7 @@
                     <div class="caption onlight">
                       <h4>Distributed Gradient Boosting Decision Tree Learning Framework</h4>
                       <p>
-                        <a href="projects.html#ChaNaTrees" class="label label-primary biglabel" rel="tooltip" title="Project Page">More</a>
+                        <a href="projects.html#ChaNaGBM" class="label label-primary biglabel" rel="tooltip" title="Project Page">More</a>
                       </p>
                       <p>Built atop the RDMA-optimized distributed computing engine ChaNa</p>
                     </div>
