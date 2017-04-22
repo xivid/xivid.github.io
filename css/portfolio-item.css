@@ -3,9 +3,15 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+@font-face {
+  font-family: 'dinpro';
+  src: url('../fonts/dinpro-regular-opentype.otf');
+}
+
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    font-family: Segoe, "Segoe UI", "Avenir Light", "Seravek Light", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-family: dinpro, Segoe, "Segoe UI", "Avenir Light", "Seravek Light", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 
 .portfolio-item {
