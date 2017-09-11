@@ -1,0 +1,21 @@
+{"total":7,"rows":[
+	{"id":94,"name":"Advertising","startdate":"2013-01-01","enddate":"2013-01-02","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":138,"name":"Unknown","_parentId":94,"startdate":"2013-01-01","enddate":"2013-05-16","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":137,"name":"Unknown","_parentId":138,"startdate":"2013-01-01","enddate":"2013-05-16","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":56,"name":"Unknown","_parentId":137,"startdate":"2000-01-01","enddate":"2013-05-16","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":144,"name":"X-Device Display Pipeline (non-video)","_parentId":94,"startdate":"2013-05-16","enddate":"","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":143,"name":"X-Device Display Pipeline (non-video)","_parentId":144,"startdate":"2013-05-16","enddate":"","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":147,"name":"ComputerTablet Display","_parentId":94,"startdate":"2013-04-01","enddate":"","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":148,"name":"ComputerTablet GDN","_parentId":147,"startdate":"2013-04-01","enddate":"","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":155,"name":"Mobile Search","_parentId":94,"startdate":"2013-04-01","enddate":"","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":158,"name":"ComputerTablet Search","_parentId":94,"startdate":"2013-04-01","enddate":"","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":162,"name":"ComputerTablet Google.com","_parentId":158,"startdate":"2013-04-01","enddate":"","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":299,"name":"AFS","_parentId":158,"startdate":"2014-07-01","enddate":"","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":344,"name":"Search","_parentId":94,"startdate":"2015-01-01","enddate":"","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":345,"name":"Mobile Google.com","_parentId":344,"startdate":"2015-01-01","enddate":"","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":156,"name":"Mobile Google.com","_parentId":345,"startdate":"2013-04-01","enddate":"","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":304,"name":"Mobile Hotel Price Ads","_parentId":345,"startdate":"2014-07-01","enddate":"","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"},
+	{"id":261,"name":"Mobile Google.com PLA","_parentId":345,"startdate":"2013-10-01","enddate":"","purchase_front_end":"UNKNOWN_PURCHASE_FRONT_END"}
+],"footer":[
+	{"id": " ", "name":"Total Products: 7","iconCls":"icon-sum"}
+]}

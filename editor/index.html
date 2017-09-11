@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Product Hierarchy Editor">
+    <meta name="author" content="jiaruiluo">
+
+    <title>Product Hierarchy Editor</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <style>
+      body {
+        padding-top: 54px;
+      }
+      @media (min-width: 992px) {
+        body {
+          padding-top: 56px;
+        }
+      }
+
+    </style>
+
+    <!-- easyUI links -->
+      <link rel="stylesheet" type="text/css" href="vendor/easyui/themes/default/easyui.css">
+      <link rel="stylesheet" type="text/css" href="vendor/easyui/themes/icon.css">
+      <!-- link rel="stylesheet" type="text/css" href="../demo.css" -->
+      <script type="text/javascript" src="vendor/easyui/jquery.min.js"></script>
+      <script type="text/javascript" src="vendor/easyui/jquery.easyui.min.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Product Hierarchy Editor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Doc</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          
+  <p class="mt-5">Select one node and click edit button to perform editing.</p>
+  <div style="margin:20px 0;">
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="edit()">Edit</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="save()">Save</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="cancel()">Cancel</a>
+  </div>
+  <table id="tg" class="easyui-treegrid" title="Product Hierarchies" style="height: 500px"
+      data-options="
+        rownumbers: true,
+        animate: true,
+        collapsible: true,
+        fitColumns: true,
+        url: 'data.json',
+        method: 'get',
+        idField: 'id',
+        treeField: 'name',
+        showFooter: true
+      ">
+    <thead>
+      <tr>
+        <th data-options="field:'id',width:20,editor:'text'">id</th>
+        <th data-options="field:'name',width:180,editor:'text'">name</th>
+        <th data-options="field:'startdate',width:40,editor:'datebox'">startdate</th>
+        <th data-options="field:'enddate',width:40,editor:'datebox'">enddate</th>
+        <th data-options="field:'purchase_front_end',width:120,editor:'text'">purchase_front_end</th>
+      </tr>
+    </thead>
+  </table>
+  <script type="text/javascript">
+    function formatProgress(value){
+        if (value){
+          var s = '<div style="width:100%;border:1px solid #ccc">' +
+              '<div style="width:' + value + '%;background:#cc0000;color:#fff">' + value + '%' + '</div>'
+              '</div>';
+          return s;
+        } else {
+          return '';
+        }
+    }
+
+    var editingId;
+
+    function edit(){
+      alert("edit:" + editingId);
+      if (editingId != undefined){
+        $('#tg').treegrid('select', editingId);
+        return;
+      }
+      var row = $('#tg').treegrid('getSelected');
+      if (row){
+        editingId = row.id
+        $('#tg').treegrid('beginEdit', editingId);
+      }
+    }
+
+    function save(){
+      alert("save: " + editingId);
+      if (editingId != undefined){
+        var t = $('#tg');
+        t.treegrid('endEdit', editingId);
+        editingId = undefined;
+        var persons = 0;
+        var rows = t.treegrid('getChildren');
+        var frow = t.treegrid('getFooterRows')[0];
+        frow.name = "Total Products: " + rows.length;
+        t.treegrid('reloadFooter');
+      }
+    }
+
+    function cancel(){
+      alert("cancel: " + editingId);
+      if (editingId != undefined){
+        $('#tg').treegrid('cancelEdit', editingId);
+        editingId = undefined;
+      }
+    }
+  </script>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <!--script src="vendor/jquery/jquery.min.js"></script-->
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
