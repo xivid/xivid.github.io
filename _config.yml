@@ -3,14 +3,14 @@
 # -----------------------------------------------------------------------------
 name: Zhifei Yang
 email: zhiyang@ethz.ch
-description: 
+description: >-
   I am a Computer Science graduate student at ETH Zürich, focusing on distributed systems research.
-footer_text: 
+footer_text: >-
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-url: # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+baseurl: ""  # the subpath of your site, e.g. /blog/
 last_updated: May 22, 2018 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
@@ -73,7 +73,7 @@ markdown: kramdown
 highlighter: pygments
 
 # Includes
-include: ['_pages']
+include: ['_pages', 'CNAME']
 
 # Plug-ins
 plugins:
