@@ -15,7 +15,7 @@ social: true
 ---
 
 I am a first-year master's student at the <a target="_blank" href="https://www.inf.ethz.ch">Department of Computer Science, ETH Zurich</a>. 
-I am broadly interested in computer systems research, especially in distributed systems, cloud computing, operating systems and programming languages. I am extremely excited about building underlying systems for emerging new applications, as well as designing and analyzing systems from a theoretical point of view.
+I am interested in the intersection of computer systems and artificial intelligence. I am extremely excited about building underlying systems for emerging new applications, as well as designing and analyzing systems on algorithmic guarantee. My previous work has been focused on [SysML](http://www.sysml.cc/).
 
 
 I received my bachlor's degree from the <a target="_blank" href="http://honors.hit.edu.cn">Computer Science Experimental Class</a> (the honour class) of <a target="_blank" href="http://en.hit.edu.cn">Harbin Institute of Technology (HIT), Harbin, China</a> in July 2017. 

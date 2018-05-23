@@ -25,29 +25,6 @@ contact_note: #
 
 google_analytics: UA-85444455-2 # out your google-analytics code
 
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-blog_name: Techdemics
-blog_description: Technology meets academics
-
-# Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
-
-# Comments
-disqus_shortname: xivid # put your disqus shortname
-
-# Optional features
-show_social_icons:  false
-enable_anchorjs:    false
-enable_katex:       true
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -64,6 +41,9 @@ collections:
   teaching:
     output: true
     permalink: /teaching/:path/
+  activities:
+    output: true
+    permalink: /activities/:path/
 
 news_limit: 5
 
@@ -81,7 +61,7 @@ include: ['_pages', 'CNAME']
 # Plug-ins
 plugins:
     - jekyll-email-protect
-    - jekyll-paginate
+    # - jekyll-paginate
     - jekyll/scholar
     - jemoji
 
