@@ -2,9 +2,19 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: I have worked as TA for two programming language courses.
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+{% assign courses = site.teaching | reverse %}	
+{% for course in courses %}
 
-Organize your courses by years, topics, or universities, however you like!
+<div class="row">
+    <h4><a href="{{ course.url | prepend: site.baseurl | prepend: site.url }}">{{ course.title }}</a></h4>
+    <h5>Role: {{ course.role }}</h5>
+    <h5>Instructor: {{ course.instructor }}, {{ course.place }}, {{ course.semester }}</h5>
+    <p>{{ course.abstract }}</p>
+</div>
+
+<hr>
+
+{% endfor %}

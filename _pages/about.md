@@ -10,6 +10,7 @@ profile:
   address:
 
 news: true
+awards: true
 social: true
 ---
 
@@ -17,10 +18,10 @@ I am a first-year master's student at the <a target="_blank" href="https://www.i
 I am broadly interested in computer systems research, especially in distributed systems, cloud computing, operating systems and programming languages. I am extremely excited about building underlying systems for emerging new applications, as well as designing and analyzing systems from a theoretical point of view.
 
 
-I received my bachlor's degree in the <a target="_blank" href="http://honors.hit.edu.cn">Computer Science Experimental Class</a> of <a target="_blank" href="http://en.hit.edu.cn">Harbin Institute of Technology (HIT), Harbin, China</a> in July 2017. 
+I received my bachlor's degree from the <a target="_blank" href="http://honors.hit.edu.cn">Computer Science Experimental Class</a> (the honour class) of <a target="_blank" href="http://en.hit.edu.cn">Harbin Institute of Technology (HIT), Harbin, China</a> in July 2017. 
 Playing with all kinds of novel technologies while failing to go deep in any direction, I had been a member of the <a target="_blank" href="https://github.com/footoo">HIT IBM Technology Center (a.k.a. FoOTOo Lab)</a> since the summer of my freshman year.
 Having studied as a semester exchange student in the <a target="_blank" href="http://www.cs.hku.hk">Department of Computer Science, The University of Hong Kong (HKU)</a> in my junior year, I found my great interests in systems and programming languages.
-During the final-year internship in the <a target="_blank" href="https://www.microsoft.com/en-us/research/group/systems-research-group-asia/">Systems Research Group</a> of <a target="_blank" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia (MSRA)</a>, I researched on distributed machine learning systems with excitement under the guidance of <a target="_blank" href="https://www.microsoft.com/en-us/research/people/lintaoz/">Dr. Lintao Zhang</a>, <a target="_blank" href="http://net.pku.edu.cn/~xjl/">Dr. Jilong Xue</a> and <a target="_blank" href="https://www.microsoft.com/en-us/research/people/huzho/">Dr. Hucheng Zhou</a>, which made me determined to pursue an academic career and dream for a faculty position.
+During the final-year internship in the <a target="_blank" href="https://www.microsoft.com/en-us/research/group/systems-research-group-asia/">Systems Research Group</a> of <a target="_blank" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia (MSRA)</a>, I did research on distributed machine learning systems with excitement under the guidance of <a target="_blank" href="https://www.microsoft.com/en-us/research/people/lintaoz/">Dr. Lintao Zhang</a>, <a target="_blank" href="http://net.pku.edu.cn/~xjl/">Dr. Jilong Xue</a> and <a target="_blank" href="https://www.microsoft.com/en-us/research/people/huzho/">Dr. Hucheng Zhou</a>, which made me determined to pursue an career in academia.
 
 
 <a target="_blank" href="files/cv.pdf">[CV]</a>

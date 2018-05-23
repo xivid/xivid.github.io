@@ -2,47 +2,18 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Noteworthy projects I created in research, courses or just for fun
+description: Coding is the ultimate addictive game!
 ---
 
-{% for project in site.projects %}
+{% assign projects = site.projects | reverse %}  
+{% for project in projects %}
 
-{% if project.redirect %}
-<div class="project">
-    <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
+<hr>
+<div class="row">
+<h3><a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">{{project.title}}</a></h3>
+<h4>{{project.description}}</h4>
+<img class="col one" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}" alt="">
+<p>{{project.abstract}}</p>
 </div>
-{% else %}
-
-<div class="project ">
-    <div class="thumbnail">
-        <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-
-{% endif %}
 
 {% endfor %}
