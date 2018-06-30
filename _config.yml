@@ -1,114 +1,78 @@
-# -----------------------------------------------------------------------------
-# Site settings
-# -----------------------------------------------------------------------------
-name: Zhifei Yang
-email: zhiyang@ethz.ch
-description: 
-  I am a Computer Science graduate student at ETH Zürich, focusing on distributed systems research.
-footer_text: 
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-
-url: https://zhifei.me # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: May 22, 2018 # leave blank if you don't want to display last updated
-
-# -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
-github_username: Xivid # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: yangzhifei # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
-contact_note: # 
-
-google_analytics: UA-85444455-2 # out your google-analytics code
-
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-blog_name: Techdemics
-blog_description: Technology meets academics
-
-# Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
-
-# Comments
-disqus_shortname: xivid # put your disqus shortname
-
-# Optional features
-show_social_icons:  false
-enable_anchorjs:    false
-enable_katex:       true
-
-# -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
+---
+title: Xivid.Github.Io
+timezone: UTC
 collections:
   news:
+    title: News
+    output: true
+    permalink: "/news/:path/"
     defaults:
       layout: post
+  posts:
+    title: Posts
     output: true
-    permalink: /news/:path/
   projects:
+    title: Projects
     output: true
-    permalink: /projects/:path/
-
+    permalink: "/projects/:path/"
+  uploads:
+    title: Uploads
+    output: true
+name: Zhifei Yang
+email: zhiyang@ethz.ch
+description: I am a Computer Science graduate student at ETH Zürich, focusing on distributed
+  systems research.
+footer_text: Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>
+  with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted
+  by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+url: https://zhifei.me
+baseurl: 
+last_updated: May 22, 2018
+github_username: Xivid
+twitter_username: 
+linkedin_username: yangzhifei
+scholar_userid: 
+orcid_id: 
+contact_note: 
+google_analytics: UA-85444455-2
+blog_name: Techdemics
+blog_description: Technology meets academics
+paginate: 4
+permalink: "/blog/:year/:title/"
+paginate_path: "/blog/page:num/"
+text:
+  pagination:
+    newer: Newer
+    older: Older
+disqus_shortname: xivid
+show_social_icons: false
+enable_anchorjs: false
+enable_katex: true
 news_limit: 5
-
-# -----------------------------------------------------------------------------
-# Jekyll settings
-# -----------------------------------------------------------------------------
-
-# Build settings
 markdown: kramdown
 highlighter: pygments
-
-# Includes
-include: ['_pages']
-
-# Plug-ins
+include:
+- _pages
 plugins:
-    - jekyll-email-protect
-    - jekyll-paginate
-    - jekyll/scholar
-    - jemoji
-
-# Jekyll-Scholar
+- jekyll-email-protect
+- jekyll-paginate
+- jekyll/scholar
+- jemoji
 scholar:
-
   last_name: Einstein
-
   style: apa
   locale: en
-
   sort_by: year
   order: descending
-
-  source: /_bibliography/
+  source: "/_bibliography/"
   bibliography: papers.bib
   bibliography_template: bib
-
   replace_strings: true
   join_strings: true
-
   details_dir: bibliography
   details_layout: bibtex.html
   details_link: Details
-
   query: "@*"
-
-# -----------------------------------------------------------------------------
-# Other settings
-# -----------------------------------------------------------------------------
-jquery_version: "1.12.4"
-katex_version: "0.9.0"
-anchorjs_version: "3.2.2"
+jquery_version: 1.12.4
+katex_version: 0.9.0
+anchorjs_version: 3.2.2

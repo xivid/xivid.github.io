@@ -1,8 +1,8 @@
 ---
-layout: page
 title: Project 3
+layout: page
 description: a project that redirects to another website
-img:
+img: 
 redirect: https://unsplash.com
 ---
 

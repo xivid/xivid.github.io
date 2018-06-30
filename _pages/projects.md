@@ -1,7 +1,7 @@
 ---
-layout: page
 title: projects
-permalink: /projects/
+permalink: "/projects/"
+layout: page
 description: Noteworthy projects I created in research, courses or just for fun
 ---
 
