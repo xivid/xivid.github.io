@@ -1,7 +1,7 @@
 ---
-layout: page
 title: projects
-permalink: /projects/
+permalink: "/projects/"
+layout: page
 description: Coding is the ultimate addictive game!
 ---
 

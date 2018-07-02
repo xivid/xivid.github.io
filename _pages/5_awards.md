@@ -1,7 +1,7 @@
 ---
-layout: page
-permalink: /awards/
 title: awards
+permalink: "/awards/"
+layout: page
 description: What's past is prologue.
 ---
 

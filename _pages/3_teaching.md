@@ -1,7 +1,7 @@
 ---
-layout: page
-permalink: /teaching/
 title: teaching
+permalink: "/teaching/"
+layout: page
 description: I have worked as TA for two programming language courses.
 ---
 

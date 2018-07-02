@@ -1,32 +1,11 @@
-# -----------------------------------------------------------------------------
-# Site settings
-# -----------------------------------------------------------------------------
-name: Zhifei Yang
-email: zhiyang@ethz.ch
-description: >-
-  I am a Computer Science graduate student at ETH Zürich, focusing on distributed systems research.
-
-url: "" # the base hostname & protocol for your site
-baseurl: ""  # the subpath of your site, e.g. /blog/
-last_updated: May 22, 2018 # leave blank if you don't want to display last updated
-
-# -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
-github_username: Xivid # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: yangzhifei # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
-contact_note: # 
-
-google_analytics: UA-85444455-2 # out your google-analytics code
-
-
-# -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
+---
+title: Xivid.Github.Io
+timezone: UTC
 collections:
+  activities:
+    title: Activities
+    output: true
+    permalink: "/activities/:path/"
   news:
     title: News
     output: true
@@ -39,29 +18,38 @@ collections:
   projects:
     title: Projects
     output: true
-    permalink: /projects/:path/
+    permalink: "/projects/:path/"
   teaching:
+    title: Teaching
     output: true
-    permalink: /teaching/:path/
-  activities:
+    permalink: "/teaching/:path/"
+  uploads:
+    title: Uploads
     output: true
-    permalink: /activities/:path/
-
+name: Zhifei Yang
+email: zhiyang@ethz.ch
+description: I am a Computer Science graduate student at ETH Zürich, focusing on distributed
+  systems research.
+url: ''
+baseurl: ''
+last_updated: May 22, 2018
+github_username: Xivid
+twitter_username: 
+linkedin_username: yangzhifei
+scholar_userid: 
+orcid_id: 
+contact_note: 
+google_analytics: UA-85444455-2
 news_limit: 5
 markdown: kramdown
 highlighter: pygments
-
-# Includes
-include: ['_pages', 'CNAME']
-
-# Plug-ins
+include:
+- _pages
+- CNAME
 plugins:
-    - jekyll-email-protect
-    # - jekyll-paginate
-    - jekyll/scholar
-    - jemoji
-
-# Jekyll-Scholar
+- jekyll-email-protect
+- jekyll/scholar
+- jemoji
 scholar:
   last_name: Yang
   style: apa

@@ -1,7 +1,7 @@
 ---
-layout: page
 title: activities
-permalink: /activities/
+permalink: "/activities/"
+layout: page
 description: Auld Lang Syne
 ---
 
