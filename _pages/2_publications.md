@@ -1,5 +1,7 @@
 ---
 title: publications
+permalink: "/publications/"
+layout: page
 description: 'I''m still looking forward to my first publication... Below are just
   some placeholders :grin:'
 years:
