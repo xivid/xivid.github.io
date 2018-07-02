@@ -1,6 +1,4 @@
 ---
-layout: page
-permalink: /publications/
 title: publications
 description: "I'm still looking forward to my first publication... Below are just some placeholders :grin:"
 years: [1956, 1950, 1935, 1905]

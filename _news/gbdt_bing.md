@@ -1,6 +1,7 @@
 ---
+title: Gbdt_bing
+date: 2017-01-17 16:00:00 Z
 layout: post
-date: 2017-01-18 00:00:00+0800
 inline: true
 ---
 

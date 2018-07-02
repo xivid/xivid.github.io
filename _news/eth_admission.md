@@ -1,6 +1,7 @@
 ---
+title: Eth_admission
+date: 2017-04-15 16:00:00 Z
 layout: post
-date: 2017-04-16 00:00:00+0800
 inline: true
 ---
 

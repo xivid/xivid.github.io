@@ -1,7 +1,7 @@
 ---
-layout: post
 title: I did some investigation on building wireless VR systems.
-date: 2016-12-13 16:11:00+0800
+date: 2016-12-13 08:11:00 Z
+layout: post
 inline: false
 ---
 

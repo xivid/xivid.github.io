@@ -1,14 +1,13 @@
 ---
-layout: about
-permalink: /
 title: Zhifei Yang (杨志飞)
-description: Computer Science Graduate Student at <a href="https://www.ethz.ch">ETH Zurich</a>
-
+permalink: "/"
+layout: about
+description: Computer Science Graduate Student at <a href="https://www.ethz.ch">ETH
+  Zurich</a>
 profile:
   align: right
   image: photo.jpg
-  address:
-
+  address: 
 news: true
 awards: true
 social: true
