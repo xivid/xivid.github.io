@@ -1,3 +1,6 @@
 # xivid.github.io
 
-https://zhifei.me
+Personal website https://zhifei.me.
+Built with Jekyll, deploy with `_bin/deploy --user`.
+
+All Rights Reserved
