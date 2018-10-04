@@ -13,8 +13,8 @@ awards: true
 social: true
 ---
 
-I am a first-year master's student at the <a target="_blank" href="https://www.inf.ethz.ch">Department of Computer Science, ETH Zurich</a>. 
-I am interested in the intersection of computer systems and artificial intelligence. I am extremely excited about building underlying systems for emerging new applications, as well as designing and analyzing systems on algorithmic guarantee. My previous work has been focused on [SysML](http://www.sysml.cc/).
+I am a master's student at the <a target="_blank" href="https://www.inf.ethz.ch">Department of Computer Science</a> of <a target="_blank" href="https://www.ethz.ch">ETH Zurich</a>. 
+I am interested in the intersection of computer systems and artificial intelligence. I am extremely excited about building underlying systems for emerging new applications, as well as designing and analyzing systems on algorithmic guarantee. My previous work has been around [SysML](http://www.sysml.cc/).
 
 
 I received my bachlor's degree from the <a target="_blank" href="http://honors.hit.edu.cn">Computer Science Experimental Class</a> (the honour class) of <a target="_blank" href="http://en.hit.edu.cn">Harbin Institute of Technology (HIT), Harbin, China</a> in July 2017. 
