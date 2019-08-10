@@ -8,7 +8,7 @@ collections:
     permalink: "/activities/:path/"
   news:
     title: News
-    output: false
+    output: true
     permalink: "/news/:path/"
     defaults:
       layout: post
