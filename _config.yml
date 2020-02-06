@@ -32,7 +32,7 @@ description: I am a Computer Science graduate student at ETH Zürich, focusing o
   systems research.
 url: 
 baseurl: 
-last_updated: May 22, 2018
+last_updated: Feb 6, 2020
 github_username: Xivid
 twitter_username: 
 linkedin_username: yangzhifei
@@ -48,23 +48,23 @@ include:
 - CNAME
 plugins:
 - jekyll-email-protect
-- jekyll/scholar
+# - jekyll/scholar
 - jemoji
-scholar:
-  last_name: Yang
-  style: apa
-  locale: en
-  sort_by: year
-  order: descending
-  source: "/_bibliography/"
-  bibliography: papers.bib
-  bibliography_template: bib
-  replace_strings: true
-  join_strings: true
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-  query: "@*"
+# scholar:
+#   last_name: Yang
+#   style: apa
+#   locale: en
+#   sort_by: year
+#   order: descending
+#   source: "/_bibliography/"
+#   bibliography: papers.bib
+#   bibliography_template: bib
+#   replace_strings: true
+#   join_strings: true
+#   details_dir: bibliography
+#   details_layout: bibtex.html
+#   details_link: Details
+#   query: "@*"
 jquery_version: 1.12.4
 katex_version: 0.9.0
 anchorjs_version: 3.2.2

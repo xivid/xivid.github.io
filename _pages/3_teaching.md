@@ -1,5 +1,5 @@
 ---
-title: teaching
+title: Teaching
 permalink: "/teaching/"
 layout: page
 description: I have worked as TA for two programming language courses.

@@ -1,5 +1,5 @@
 ---
-title: projects
+title: Projects
 permalink: "/projects/"
 layout: page
 description: Coding is the ultimate addictive game!

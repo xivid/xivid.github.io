@@ -1,5 +1,5 @@
 ---
-title: activities
+title: Activities
 permalink: "/activities/"
 layout: page
 description: Auld Lang Syne

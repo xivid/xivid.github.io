@@ -1,5 +1,5 @@
 ---
-title: awards
+title: Awards
 permalink: "/awards/"
 layout: page
 description: What's past is prologue.

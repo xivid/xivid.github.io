@@ -2,7 +2,7 @@
 title: 'MineLiB: A Library of Sub-Operators for Data Mining Algorithms'
 date: 2017-03-23 00:00:00 Z
 layout: page
-description: Summer Research Project @ Systems Group, ETH Zurich
+description: Internship, Prof. Gustavo Alonso, Systems Group, ETH Zurich
 img: "/assets/img/minelib.png"
 abstract: Accelerating data mining algorithms on modern computing hardware is critical
   for efficient use of the data deluge available in the cloud today. In this project
