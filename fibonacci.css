@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,400i,600|Source+Sans+Pro:400,400i,600|Source+Code+Pro");
 :root {
   --base-size: 16px;
+  --xxs-size: 0.749rem;
   --xs-size: 0.825rem;
   --sm-size: 0.908rem;
   --md-size: 1rem;
@@ -84,18 +85,19 @@ h1 {
   margin-top: var(--xl-size);
   margin-bottom: var(--xxxl-size);
   color: #333333; }
-  h1::after {
-    display: block;
-    content: '';
-    border-bottom: solid 6px #8792a3;
-    margin-top: var(--xl-size);
-    width: 40%; }
 
 h2 {
   font-size: var(--xl-size);
   margin-top: 1.8rem;
   margin-bottom: var(--md-size); }
 
+h2::after {
+  display: block;
+  content: '';
+  border-bottom: solid 2px #8792a3;
+  margin-top: var(--md-size);
+  width: 100%; }
+  
 h3 {
   font-size: var(--lg-size);
   margin-top: var(--lg-size);
@@ -130,13 +132,16 @@ ol {
   margin-top: 0;
   margin-bottom: var(--md-size); }
 
+li {
+  margin-bottom: 0.15em;
+}
 blockquote {
   background-color: #f1f7ea;
   padding: var(--sm-size) var(--lg-size);
   border-radius: 3px;
   color: rgba(51, 51, 51, 0.8);
   font-size: var(--md-size);
-  margin-top: var(--md-size);
+  margin-top: var(--lg-size);
   margin-bottom: var(--lg-size);
   font-family: "Source Sans Pro", sans-serif; }
   blockquote p {
@@ -514,74 +519,36 @@ main.post-detail .related-posts {
       margin-bottom: 0.5rem;
       padding: 0; }
 
-main.post-detail .comments {
-  margin-bottom: var(--xl-size); }
-  main.post-detail .comments .user {
-    margin-right: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    main.post-detail .comments .user img {
-      border-radius: 50%; }
-    main.post-detail .comments .user span {
-      font-family: "Source Sans Pro", sans-serif;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      background-color: #f7f7f7;
-      padding: 1px 5px;
-      font-size: 0.58rem;
-      border-radius: 3px;
-      margin-top: 0.25rem;
-      text-align: center; }
-  main.post-detail .comments form {
-    margin-top: 1.5rem; }
-    main.post-detail .comments form .new-comment {
-      display: flex; }
-      main.post-detail .comments form .new-comment .form-control {
-        flex: 1; }
-        main.post-detail .comments form .new-comment .form-control textarea {
-          min-height: 75px; }
-  main.post-detail .comments .comments-list {
-    margin: 1.5rem 0 0 0;
-    list-style: none;
-    padding: 0; }
-    main.post-detail .comments .comments-list li {
-      padding-bottom: 1rem; }
-      main.post-detail .comments .comments-list li .comment {
-        display: flex; }
-        main.post-detail .comments .comments-list li .comment .comment-info .commented-date {
-          text-align: right;
-          font-family: "Source Sans Pro", sans-serif;
-          text-transform: uppercase;
-          letter-spacing: 1px;
-          font-size: 0.58rem;
-          color: rgba(51, 51, 51, 0.5); }
-        main.post-detail .comments .comments-list li .comment button {
-          padding: 0.25rem 0.75rem;
-          font-size: 0.58rem;
-          background-color: transparent;
-          color: #333333; }
+@media only screen and (min-width: 836px) {
+main.post-detail .intro {
+  display: flex;
+  flex-direction: row;
+}
+}
 
-.about article p {
-  font-size: 1.2rem;
-  position: relative; }
+main.post-detail .intro .photo {
+  margin-top: 0.3rem;
+  margin-right: 1rem;
+  display: block;
+  text-align: center;
+  width: 100%; 
+}
 
-.about .social {
+.social {
   display: flex;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: var(--xs-size);
-  color: rgba(51, 51, 51, 0.5);
+  font-size: var(--md-size);
+  color: rgba(28, 27, 27, 0.8);
   justify-content: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 1px; */
   border-top: solid 1px #f7f7f7;
   border-bottom: solid 1px #f7f7f7;
   padding-top: var(--md-size);
   padding-bottom: var(--md-size); }
-  .about .social a {
+  .social a {
     border-bottom: none; }
-  .about .social .separator {
+  .social .separator {
     margin-left: 0.5rem;
     margin-right: 0.5rem; }
 
