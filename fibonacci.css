@@ -470,6 +470,9 @@ input[type="search"]::-webkit-search-results-decoration {
       margin-top: 0.25rem; }
       .main article .poster-image img {
         border-radius: 3px; }
+    .main article .photo img {
+      border-radius: 3px;
+    }
 
 .footer {
   justify-content: flex-end; }
