@@ -128,7 +128,7 @@ a:active {
 
 ul,
 ol {
-  padding-left: 0;
+  padding-left: 1rem;
   margin-top: 0;
   margin-bottom: var(--md-size); }
 
