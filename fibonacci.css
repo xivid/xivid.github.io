@@ -530,11 +530,11 @@ main.post-detail .intro {
 }
 
 main.post-detail .intro .photo {
-  margin-top: 0.3rem;
+  margin-top: 0.5rem;
   /* margin-right: 1rem; */
   display: block;
   /* text-align: center; */
-  width: 85%; 
+  width: 95%; 
 }
 
 .social {
