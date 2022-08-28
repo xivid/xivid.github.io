@@ -11,6 +11,6 @@ github_username:  xivid
 linkedin_username: yangzhifei
 
 # Build settings
-theme: jekyll-theme-fibonacci
+theme: xivid/jekyll-theme-fibonacci
 plugins:
   - jekyll-feed
