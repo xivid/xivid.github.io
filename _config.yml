@@ -1,0 +1,16 @@
+title: Zhifei Yang
+subtitle: PhD Student @ EPFL, Switzerland
+email: xividyzf@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  I am a Computer Science PhD student at EPFL. 
+  I am interested in the art of computer systems design.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://zhifei.me" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: zhifei_yang
+github_username:  xivid
+linkedin_username: yangzhifei
+
+# Build settings
+theme: jekyll-theme-fibonacci
+plugins:
+  - jekyll-feed
