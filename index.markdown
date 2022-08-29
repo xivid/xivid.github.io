@@ -12,6 +12,7 @@ desc: >-
         <a href="https://systems.ethz.ch/">ETH Zürich</a> and bachelor's degree at 
         <a href="http://en.hit.edu.cn/">Harbin Institute of Technology</a>.
     </p>
+permalink: /
 ---
 
 <h2>Publications</h2>
