@@ -34,8 +34,8 @@ permalink: /
 
 <ul>
     <li>
-        <b>PhD Student, Large-scale Sustainable Systems Group, The University of Chicago.</b> <br>
-        <i>Advisor: Prof. Andrew A. Chien. 09.2020 ~ 06.2021. <a href="https://www.science.org/content/article/china-students-nid-hed-tk">Terminated due to US visa ban.</a></i> <br>
+        <b>Research Assistant, Large-scale Sustainable Systems Group, The University of Chicago.</b> <br>
+        <i>Advisor: Prof. Andrew A. Chien. 09.2020 ~ 06.2021. </i> <br>
         High performance serverless computing, especially scientific data streaming.
     </li>
     <li>
