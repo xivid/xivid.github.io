@@ -9,6 +9,7 @@ url: "https://zhifei.me" # the base hostname & protocol for your site, e.g. http
 twitter_username: zhifei_yang
 github_username:  xivid
 linkedin_username: yangzhifei
+google_ua: UA-85444455-2
 
 # Build settings
 remote_theme: xivid/jekyll-theme-fibonacci
