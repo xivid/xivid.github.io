@@ -3,13 +3,14 @@ layout: home
 photo: "assets/photo.jpg"
 desc: >-
     <p>
-        I am a Computer Science PhD student at 
-        <a href="https://www.epfl.ch/education/phd/edic-computer-and-communication-sciences/">École Polytechnique Fédérale de Lausanne (EPFL)</a>.
-        My research focuses on cloud data center systems, with a recent interest on hardware/software co-design for higher resource utilization, performance and efficiency.
+        I am a research engineer at the Laboratory for Computation Security of EPFL, led by <a href="https://ic-people.epfl.ch/~achiesa/">Prof. Alessandro Chiesa</a>.
+        Currently, I work on applied cryptography and implementations of zero-knowledge proofs.
     </p>
     <p>
-        Before coming to EPFL, I obtained my master's degree at 
-        <a href="https://systems.ethz.ch/">ETH Zürich</a> and bachelor's degree at 
+        I am generally interested in computer systems, security and privacy.
+        I have various systems research experiences from EPFL, the Univeristy of Chicago, ETH Zürich and MSRA. 
+        I hold a master's degree from 
+        <a href="https://systems.ethz.ch/">ETH Zürich</a> and a bachelor's degree from
         <a href="http://en.hit.edu.cn/">Harbin Institute of Technology</a>.
     </p>
 permalink: /
@@ -33,6 +34,11 @@ permalink: /
 <h2>Experiences</h2>
 
 <ul>
+    <li>
+        <b>Research Assistant, Doctoral Program in Computer and Communication Sciences, EPFL.</b> <br>
+        <i>Advisors: Prof. Sanidhya Kashyap and Prof. Babak Falsafi. 09.2021 ~ 12.2022. </i> <br>
+        Software/hardware co-design for cloud hypervisors and virtual memory systems.
+    </li>
     <li>
         <b>Research Assistant, Large-scale Sustainable Systems Group, The University of Chicago.</b> <br>
         <i>Advisor: Prof. Andrew A. Chien. 09.2020 ~ 06.2021. </i> <br>
@@ -74,5 +80,5 @@ permalink: /
 </ul>
 
 <blockquote>
-    To learn, to achieve, and to love.
+    To learn, to love, to achieve.
 </blockquote>

@@ -1,9 +1,9 @@
 title: Zhifei Yang
-subtitle: PhD Student @ EPFL, Switzerland
+subtitle: Research Engineer @ EPFL, Switzerland
 email: xividyzf@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a Computer Science PhD student at EPFL. 
-  I am interested in the art of computer systems design.
+  I am a research engineer at EPFL. 
+  I am generally interested in systems, security, and privacy-enhancing technologies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zhifei.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zhifei_yang
