@@ -1,9 +1,9 @@
 title: Zhifei Yang
-subtitle: Research Engineer @ EPFL, Switzerland
+subtitle: # Systems Software Engineer @ TikTok UK
 email: xividyzf@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a research engineer at EPFL. 
-  I am generally interested in systems, security, and privacy-enhancing technologies.
+  I am a systems software engineer and researcher. 
+  I am interested in the art of computer systems design and implementation. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zhifei.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zhifei_yang

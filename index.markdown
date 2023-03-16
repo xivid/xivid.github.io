@@ -3,14 +3,14 @@ layout: home
 photo: "assets/photo.jpg"
 desc: >-
     <p>
-        I am a research engineer at the Laboratory for Computation Security of EPFL, led by <a href="https://ic-people.epfl.ch/~achiesa/">Prof. Alessandro Chiesa</a>.
-        Currently, I work on applied cryptography and implementations of zero-knowledge proofs.
+        I am a <a href="https://www.usenix.org/publications/login-logout/november-2013-login-logout/night-watch">systems</a> engineer and researcher.
+        I am interested in the art of computer systems design and implementation.
+        Recently, my focus is on building datacenter software infrastructure for emerging cloud and AI use cases.
     </p>
     <p>
-        I am generally interested in computer systems, security and privacy.
-        I have various systems research experiences from EPFL, the Univeristy of Chicago, ETH Zürich and MSRA. 
-        I hold a master's degree from 
-        <a href="https://systems.ethz.ch/">ETH Zürich</a> and a bachelor's degree from
+        I was fortunate enough to have research experiences from EPFL and the University
+        of Chicago. Before that, I finished my master's degree from 
+        <a href="https://systems.ethz.ch/">ETH Zürich</a> and bachelor's degree from
         <a href="http://en.hit.edu.cn/">Harbin Institute of Technology</a>.
     </p>
 permalink: /
@@ -35,14 +35,14 @@ permalink: /
 
 <ul>
     <li>
-        <b>Research Assistant, Doctoral Program in Computer and Communication Sciences, EPFL.</b> <br>
-        <i>Advisors: Prof. Sanidhya Kashyap and Prof. Babak Falsafi. 09.2021 ~ 12.2022. </i> <br>
+        <b>Research Assistant, School of Computer and Communication Sciences, EPFL.</b> <br>
+        <i>Supervisors: Prof. Sanidhya Kashyap and Prof. Babak Falsafi. 09.2021 ~ 12.2022. </i> <br>
         Software/hardware co-design for cloud hypervisors and virtual memory systems.
     </li>
     <li>
         <b>Research Assistant, Large-scale Sustainable Systems Group, The University of Chicago.</b> <br>
         <i>Advisor: Prof. Andrew A. Chien. 09.2020 ~ 06.2021. </i> <br>
-        High performance serverless computing, especially scientific data streaming.
+        High performance serverless computing, especially for scientific data streaming.
     </li>
     <li>
         <b>Research Assistant and Master Thesis, Systems Group, ETH Zurich.</b> <br>
