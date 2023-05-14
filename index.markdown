@@ -3,7 +3,7 @@ layout: home
 photo: "assets/photo.jpg"
 desc: >-
     <p>
-        I am a <a href="https://www.usenix.org/publications/login-logout/november-2013-login-logout/night-watch">systems</a> engineer and researcher.
+        I am a <a href="https://www.usenix.org/publications/login-logout/november-2013-login-logout/night-watch">systems</a> software engineer and researcher.
         I am interested in the art of computer systems design and implementation.
         Recently, my focus is on building datacenter software infrastructure for emerging cloud and AI use cases.
     </p>
