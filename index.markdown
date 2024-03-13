@@ -4,7 +4,7 @@ photo: "assets/photo.jpg"
 desc: >-
     <p>
         I am a computer <a href="https://www.usenix.org/publications/login-logout/november-2013-login-logout/night-watch">systems</a> software engineer and researcher.
-        Recently, I focus on building scalable <b>datacenter system</b> for emerging cloud and AI scenarios.
+        Recently, I focus on building <b>scalable datacenter system</b> for emerging cloud and AI scenarios.
     </p>
     <p>
         I got my bachelor's degree from
