@@ -11,7 +11,7 @@ desc: >-
         <a href="http://en.hit.edu.cn/">Harbin Institute of Technology</a> and master's degree from 
         <a href="https://systems.ethz.ch/">ETH Zürich</a>. After graduation,
         I spent a few years doing research in the University of Chicago and EPFL, before
-        joining ByteDance's System Technology and Engineering team in London, UK.
+        joining ByteDance's System Technologies and Engineering team in London, UK.
     </p>
 permalink: /
 ---
