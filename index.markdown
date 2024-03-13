@@ -90,5 +90,5 @@ permalink: /
 </ul>
 
 <blockquote>
-    To learn, to love, to achieve.
+    To seek, to grind, to create.
 </blockquote>
