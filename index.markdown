@@ -4,14 +4,14 @@ photo: "assets/photo.jpg"
 desc: >-
     <p>
         I am a computer <a href="https://www.usenix.org/publications/login-logout/november-2013-login-logout/night-watch">systems</a> software engineer and researcher.
-        Recently, I focus on building <b>high-performance datacenter infrastructure</b> for emerging cloud and AI scenarios.
+        Recently, I focus on building <b>high-performance datacenter system software</b> for emerging cloud and AI scenarios.
     </p>
     <p>
         I got my bachelor's degree from
         <a href="http://en.hit.edu.cn/">Harbin Institute of Technology</a> and master's degree from 
         <a href="https://systems.ethz.ch/">ETH Zürich</a>. After graduation,
         I spent a few years doing research in the University of Chicago and EPFL, before
-        joining ByteDance's System Technologies and Engineering team in London, UK.
+        joining TikTok's System Technologies and Engineering team in London, UK.
     </p>
 permalink: /
 ---
