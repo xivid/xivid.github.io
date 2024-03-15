@@ -4,7 +4,7 @@ photo: "assets/photo.jpg"
 desc: >-
     <p>
         I am a computer <a href="https://www.usenix.org/publications/login-logout/november-2013-login-logout/night-watch">systems</a> software engineer and researcher.
-        Recently, I focus on building <b>scalable datacenter system</b> for emerging cloud and AI scenarios.
+        Recently, I focus on building <b>high-performance datacenter infrastructure</b> for emerging cloud and AI scenarios.
     </p>
     <p>
         I got my bachelor's degree from
@@ -40,29 +40,29 @@ permalink: /
 
 <ul>
     <li>
-        <b>System Software Engineer, ByteDance.</b> <br>
+        <b>System Software Engineer, TikTok.</b> <br>
         <i>System Technologies & Engineering - UK, 2023 ~ Now. </i> <br>
-        Build and maintain ByteDance/TikTok's EU <u>datacenter software</u> from stability, performance and cost perspectives.
+        Build and maintain TikTok's EU <u>datacenter</u>, focusing on the performance, stability and cost effectiveness of its <u>low-level system software</u>.
     </li>
     <li>
         <b>Research Assistant, School of Computer and Communication Sciences, EPFL.</b> <br>
         <i>Supervisors: Prof. Sanidhya Kashyap and Prof. Babak Falsafi. 09.2021 ~ 12.2022. </i> <br>
-        Research on the scalability of <u>datacenter server</u> architecture via efficient virtualization and scheduling.
+        Research on improving the scalability of <u>datacenter resource management</u> via efficient virtualization and scheduling.
     </li>
     <li>
         <b>Research Assistant, Large-scale Sustainable Systems Group, The University of Chicago.</b> <br>
         <i>Advisor: Prof. Andrew A. Chien. 09.2020 ~ 06.2021. </i> <br>
-        Research on a novel, highly-scalable <u>datacenter software</u> architecture, namely Serverless Computing.
+        Research on enhancing FaaS, a novel <u>datacenter software architecture</u>, with application-defined performance guarantee.
     </li>
     <li>
         <b>Research Assistant and Master Thesis, Systems Group, ETH Zurich.</b> <br>
         <i>Advisor: Prof. Gustavo Alonso. 2018 ~ 2020.</i> <br>
-        Research on boosting <u>datacenter hardware</u>'s efficiency with specialised FPGA accelerators.
+        Research on offloading the functionality of <u>datacenter system software</u> to specialised FPGA accelerators.
     </li>
     <li>
         <b>Research Intern, Systems Research Group, Microsoft Research Asia.</b> <br>
         <i>Mentors: Dr. Hucheng Zhou and Dr. Lintao Zhang. 06.2016 ~ 04.2017. </i> <br>
-        Research on optimizing the scalability of a popular <u>datacenter workload</u>: GBDT-based ML model training.
+        Research on optimizing the performance of a hot <u>datacenter workload</u>: parallel ML training.
     </li>
 </ul>
 
