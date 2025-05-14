@@ -4,7 +4,7 @@ photo: "assets/photo.jpg"
 desc: >-
     <p>
         I am a low-level <a href="https://www.usenix.org/publications/login-logout/november-2013-login-logout/night-watch">systems</a> software engineer and researcher.
-        Recently, I work on the performance and reliability engineering of CPU/GPU system software for large-scale AI workloads.
+        Recently, I work on the performance and reliability engineering of <b>CPU/GPU system software</b> for large-scale AI workloads.
     </p>
     <p>
         I got my bachelor's degree from
