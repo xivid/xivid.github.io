@@ -4,14 +4,12 @@ photo: "assets/photo.jpg"
 desc: >-
     <p>
         I am a low-level <a href="https://www.usenix.org/publications/login-logout/november-2013-login-logout/night-watch">systems</a> software engineer and researcher.
-        Recently, I work on the performance and reliability engineering of <b>CPU/GPU system software</b> for large-scale AI workloads.
+        At Meta in London, I build secure <b>VM and sandbox infrastructure</b> for frontier AI workloads.
     </p>
     <p>
-        I got my bachelor's degree from
-        <a href="http://en.hit.edu.cn/">Harbin Institute of Technology</a> and master's degree from 
-        <a href="https://systems.ethz.ch/">ETH Zürich</a>. After graduation,
-        I spent two years pursuing computer systems research in the University of Chicago and EPFL, before
-        joining TikTok's System Technologies and Engineering team in London, UK.
+        I earned a bachelor's degree from
+        <a href="http://en.hit.edu.cn/">Harbin Institute of Technology</a> and a master's from
+        <a href="https://systems.ethz.ch/">ETH Zürich</a>, then conducted systems research at the University of Chicago and EPFL.
     </p>
 permalink: /
 ---
@@ -45,9 +43,14 @@ permalink: /
 
 <ul>
     <li>
+        <b>Production Engineer, Meta.</b> <br>
+        <i>London, UK, 2025 ~ Present.</i> <br>
+        Build secure, high-performance VM and sandbox infrastructure for large-scale AI training and agent execution.
+    </li>
+    <li>
         <b>System Software Engineer, TikTok.</b> <br>
-        <i>System Technologies & Engineering - UK, 2023 ~ Now. </i> <br>
-	Performance tuning and reliability engineering of TikTok/ByteDance's global system software, focusing on <u>high-performance GPU infrastructure</u> and the <u>Linux kernel</u>.
+        <i>System Technologies & Engineering — London, UK, 2023 ~ 2025.</i> <br>
+        Worked on the performance and reliability of CPU/GPU system software for large-scale production workloads, including confidential-VM networking, the Linux kernel, and GPU infrastructure.
     </li>
     <li>
         <b>Research Assistant, School of Computer and Communication Sciences, EPFL.</b> <br>
