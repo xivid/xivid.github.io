@@ -1,9 +1,9 @@
 title: Zhifei Yang
-subtitle: System Software Engineer @ TikTok
+subtitle: Muse Infrastructure @ Meta
 email: xividyzf@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a systems software engineer and researcher. 
-  I am interested in the art of computer systems design and implementation. 
+  I am a low-level systems software engineer and researcher working on the VM
+  infrastructure behind Muse, Meta's personal AI assistant. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zhifei.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zhifei_yang

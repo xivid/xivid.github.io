@@ -3,15 +3,12 @@ layout: home
 photo: "assets/photo.jpg"
 desc: >-
     <p>
-        I am a low-level <a href="https://www.usenix.org/publications/login-logout/november-2013-login-logout/night-watch">systems</a> software engineer and researcher.
-        Recently, I work on the performance and reliability engineering of <b>CPU/GPU system software</b> for large-scale AI workloads.
+        I am a <a href="https://www.usenix.org/publications/login-logout/november-2013-login-logout/night-watch">systems</a> engineer and researcher working on <b>Muse</b>, Meta's personal AI assistant.
+        I build the VM infrastructure behind it, with a focus on performance optimization.
+        Previously, I worked on the performance and reliability engineering of <b>CPU/GPU system software</b> for large-scale AI workloads at TikTok/ByteDance.
     </p>
     <p>
-        I got my bachelor's degree from
-        <a href="http://en.hit.edu.cn/">Harbin Institute of Technology</a> and master's degree from 
-        <a href="https://systems.ethz.ch/">ETH Zürich</a>. After graduation,
-        I spent two years pursuing computer systems research in the University of Chicago and EPFL, before
-        joining TikTok's System Technologies and Engineering team in London, UK.
+        I received a master's degree in Computer Science from <a href="https://systems.ethz.ch/">ETH Zürich</a>.
     </p>
 permalink: /
 ---
@@ -45,8 +42,13 @@ permalink: /
 
 <ul>
     <li>
-        <b>System Software Engineer, TikTok.</b> <br>
-        <i>System Technologies & Engineering - UK, 2023 ~ Now. </i> <br>
+        <b>Production Engineer, Meta.</b> <br>
+        <i>London, UK, 11.2025 ~ Now. </i> <br>
+	Helping scale Meta's VM infrastructure for secure AI-agent runtime and frontier model training to millions and billions of users.
+    </li>
+    <li>
+        <b>System Software Engineer, TikTok/ByteDance.</b> <br>
+        <i>System Technologies & Engineering - London, UK, 2023 ~ 2025. </i> <br>
 	Performance tuning and reliability engineering of TikTok/ByteDance's global system software, focusing on <u>high-performance GPU infrastructure</u> and the <u>Linux kernel</u>.
     </li>
     <li>
